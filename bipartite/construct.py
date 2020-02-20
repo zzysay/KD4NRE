@@ -3,7 +3,7 @@ Construct the bipartite graph.
 """
 
 import json
-from bipartite import constant
+import constant
 
 
 class ConstructByType:
@@ -11,8 +11,8 @@ class ConstructByType:
     def __init__(self):
         """ initialize file path. """
         self.train_file = '../tree_nn/dataset/tacred/train.json'
-        # self.dev_file = 'dataset/tacred/dev.json'
-        # self.test_file = 'dataset/tacred/test.json'
+        # self.dev_file = '../tree_nn/dataset/tacred/dev.json'
+        # self.test_file = '../tree_nn/dataset/tacred/test.json'
 
         self.type2rel = dict()
         self.rel2type = dict()
