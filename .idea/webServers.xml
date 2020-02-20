@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="37a3a5d3-2ae6-4b33-9f20-c3bbb075543c" name="IIE-27/KD4NRE" url="http://172.34.132.193">
+        <fileTransfer host="172.34.132.193" port="22" rootFolder="/home/zhangzhenyu/projects/KD4NRE" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

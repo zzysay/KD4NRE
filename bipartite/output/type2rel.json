@@ -1,0 +1,344 @@
+{
+    "SUBJ-ORGANIZATION|:|OBJ-PERSON": {
+        "org:top_members/employees": [
+            1890,
+            0.9117221418234442
+        ],
+        "org:founded_by": [
+            124,
+            0.05981669078630005
+        ],
+        "org:shareholders": [
+            59,
+            0.028461167390255667
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-ORGANIZATION": {
+        "per:employee_of": [
+            1523,
+            0.9108851674641149
+        ],
+        "per:schools_attended": [
+            149,
+            0.08911483253588516
+        ]
+    },
+    "SUBJ-ORGANIZATION|:|OBJ-ORGANIZATION": {
+        "org:alternate_names": [
+            785,
+            0.5025608194622279
+        ],
+        "org:subsidiaries": [
+            268,
+            0.17157490396927016
+        ],
+        "org:parents": [
+            261,
+            0.16709346991037133
+        ],
+        "org:members": [
+            141,
+            0.09026888604353393
+        ],
+        "org:member_of": [
+            90,
+            0.05761843790012804
+        ],
+        "org:shareholders": [
+            17,
+            0.01088348271446863
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-CITY": {
+        "per:cities_of_residence": [
+            298,
+            0.6882217090069284
+        ],
+        "per:city_of_death": [
+            73,
+            0.16859122401847576
+        ],
+        "per:city_of_birth": [
+            62,
+            0.14318706697459585
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-PERSON": {
+        "per:spouse": [
+            258,
+            0.24316682375117812
+        ],
+        "per:children": [
+            211,
+            0.1988689915174364
+        ],
+        "per:other_family": [
+            179,
+            0.16870876531573986
+        ],
+        "per:siblings": [
+            165,
+            0.15551366635249764
+        ],
+        "per:parents": [
+            152,
+            0.14326107445805844
+        ],
+        "per:alternate_names": [
+            96,
+            0.09048067860508954
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-TITLE": {
+        "per:title": [
+            2443,
+            1.0
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-RELIGION": {
+        "per:religion": [
+            53,
+            1.0
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-NUMBER": {
+        "per:age": [
+            335,
+            1.0
+        ]
+    },
+    "SUBJ-ORGANIZATION|:|OBJ-URL": {
+        "org:website": [
+            111,
+            1.0
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-STATE_OR_PROVINCE": {
+        "per:stateorprovinces_of_residence": [
+            310,
+            0.7828282828282829
+        ],
+        "per:stateorprovince_of_death": [
+            48,
+            0.12121212121212122
+        ],
+        "per:stateorprovince_of_birth": [
+            38,
+            0.09595959595959595
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-COUNTRY": {
+        "per:countries_of_residence": [
+            373,
+            0.8126361655773421
+        ],
+        "per:origin": [
+            56,
+            0.12200435729847495
+        ],
+        "per:country_of_birth": [
+            26,
+            0.05664488017429194
+        ],
+        "per:country_of_death": [
+            4,
+            0.008714596949891068
+        ]
+    },
+    "SUBJ-ORGANIZATION|:|OBJ-CITY": {
+        "org:city_of_headquarters": [
+            355,
+            1.0
+        ]
+    },
+    "SUBJ-ORGANIZATION|:|OBJ-COUNTRY": {
+        "org:country_of_headquarters": [
+            452,
+            0.8810916179337231
+        ],
+        "org:members": [
+            29,
+            0.056530214424951264
+        ],
+        "org:member_of": [
+            16,
+            0.031189083820662766
+        ],
+        "org:parents": [
+            15,
+            0.029239766081871343
+        ],
+        "org:subsidiaries": [
+            1,
+            0.001949317738791423
+        ]
+    },
+    "SUBJ-ORGANIZATION|:|OBJ-STATE_OR_PROVINCE": {
+        "org:stateorprovince_of_headquarters": [
+            214,
+            0.963963963963964
+        ],
+        "org:member_of": [
+            5,
+            0.02252252252252252
+        ],
+        "org:parents": [
+            3,
+            0.013513513513513514
+        ]
+    },
+    "SUBJ-ORGANIZATION|:|OBJ-NUMBER": {
+        "org:number_of_employees/members": [
+            75,
+            1.0
+        ]
+    },
+    "SUBJ-ORGANIZATION|:|OBJ-RELIGION": {
+        "org:political/religious_affiliation": [
+            78,
+            1.0
+        ]
+    },
+    "SUBJ-ORGANIZATION|:|OBJ-DATE": {
+        "org:founded": [
+            91,
+            0.7982456140350878
+        ],
+        "org:dissolved": [
+            23,
+            0.20175438596491227
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-DURATION": {
+        "per:age": [
+            55,
+            1.0
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-DATE": {
+        "per:date_of_death": [
+            134,
+            0.6802030456852792
+        ],
+        "per:date_of_birth": [
+            63,
+            0.3197969543147208
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-NATIONALITY": {
+        "per:origin": [
+            266,
+            0.8036253776435045
+        ],
+        "per:countries_of_residence": [
+            63,
+            0.1903323262839879
+        ],
+        "per:country_of_death": [
+            1,
+            0.0030211480362537764
+        ],
+        "per:country_of_birth": [
+            1,
+            0.0030211480362537764
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-CAUSE_OF_DEATH": {
+        "per:cause_of_death": [
+            117,
+            1.0
+        ]
+    },
+    "SUBJ-ORGANIZATION|:|OBJ-LOCATION": {
+        "org:city_of_headquarters": [
+            27,
+            0.2621359223300971
+        ],
+        "org:subsidiaries": [
+            27,
+            0.2621359223300971
+        ],
+        "org:country_of_headquarters": [
+            16,
+            0.1553398058252427
+        ],
+        "org:stateorprovince_of_headquarters": [
+            15,
+            0.14563106796116504
+        ],
+        "org:member_of": [
+            11,
+            0.10679611650485436
+        ],
+        "org:parents": [
+            7,
+            0.06796116504854369
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-LOCATION": {
+        "per:cities_of_residence": [
+            76,
+            0.6129032258064516
+        ],
+        "per:stateorprovinces_of_residence": [
+            21,
+            0.1693548387096774
+        ],
+        "per:countries_of_residence": [
+            9,
+            0.07258064516129033
+        ],
+        "per:city_of_death": [
+            8,
+            0.06451612903225806
+        ],
+        "per:city_of_birth": [
+            3,
+            0.024193548387096774
+        ],
+        "per:origin": [
+            3,
+            0.024193548387096774
+        ],
+        "per:country_of_birth": [
+            1,
+            0.008064516129032258
+        ],
+        "per:employee_of": [
+            1,
+            0.008064516129032258
+        ],
+        "per:country_of_death": [
+            1,
+            0.008064516129032258
+        ],
+        "per:stateorprovince_of_death": [
+            1,
+            0.008064516129032258
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-MISC": {
+        "per:alternate_names": [
+            8,
+            1.0
+        ]
+    },
+    "SUBJ-PERSON|:|OBJ-CRIMINAL_CHARGE": {
+        "per:charges": [
+            72,
+            1.0
+        ]
+    },
+    "SUBJ-ORGANIZATION|:|OBJ-IDEOLOGY": {
+        "org:political/religious_affiliation": [
+            27,
+            1.0
+        ]
+    },
+    "SUBJ-ORGANIZATION|:|OBJ-MISC": {
+        "org:alternate_names": [
+            23,
+            1.0
+        ]
+    }
+}

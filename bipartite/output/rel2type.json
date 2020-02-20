@@ -1,0 +1,372 @@
+{
+    "org:founded_by": {
+        "SUBJ-ORGANIZATION|:|OBJ-PERSON": [
+            124,
+            1.0
+        ]
+    },
+    "per:employee_of": {
+        "SUBJ-PERSON|:|OBJ-ORGANIZATION": [
+            1523,
+            0.9993438320209974
+        ],
+        "SUBJ-PERSON|:|OBJ-LOCATION": [
+            1,
+            0.0006561679790026247
+        ]
+    },
+    "org:alternate_names": {
+        "SUBJ-ORGANIZATION|:|OBJ-ORGANIZATION": [
+            785,
+            0.9715346534653465
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-MISC": [
+            23,
+            0.028465346534653466
+        ]
+    },
+    "per:cities_of_residence": {
+        "SUBJ-PERSON|:|OBJ-CITY": [
+            298,
+            0.7967914438502673
+        ],
+        "SUBJ-PERSON|:|OBJ-LOCATION": [
+            76,
+            0.20320855614973263
+        ]
+    },
+    "per:children": {
+        "SUBJ-PERSON|:|OBJ-PERSON": [
+            211,
+            1.0
+        ]
+    },
+    "per:title": {
+        "SUBJ-PERSON|:|OBJ-TITLE": [
+            2443,
+            1.0
+        ]
+    },
+    "per:siblings": {
+        "SUBJ-PERSON|:|OBJ-PERSON": [
+            165,
+            1.0
+        ]
+    },
+    "per:religion": {
+        "SUBJ-PERSON|:|OBJ-RELIGION": [
+            53,
+            1.0
+        ]
+    },
+    "per:age": {
+        "SUBJ-PERSON|:|OBJ-NUMBER": [
+            335,
+            0.8589743589743589
+        ],
+        "SUBJ-PERSON|:|OBJ-DURATION": [
+            55,
+            0.14102564102564102
+        ]
+    },
+    "org:website": {
+        "SUBJ-ORGANIZATION|:|OBJ-URL": [
+            111,
+            1.0
+        ]
+    },
+    "per:stateorprovinces_of_residence": {
+        "SUBJ-PERSON|:|OBJ-STATE_OR_PROVINCE": [
+            310,
+            0.9365558912386707
+        ],
+        "SUBJ-PERSON|:|OBJ-LOCATION": [
+            21,
+            0.0634441087613293
+        ]
+    },
+    "org:member_of": {
+        "SUBJ-ORGANIZATION|:|OBJ-ORGANIZATION": [
+            90,
+            0.7377049180327869
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-COUNTRY": [
+            16,
+            0.13114754098360656
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-LOCATION": [
+            11,
+            0.09016393442622951
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-STATE_OR_PROVINCE": [
+            5,
+            0.040983606557377046
+        ]
+    },
+    "org:top_members/employees": {
+        "SUBJ-ORGANIZATION|:|OBJ-PERSON": [
+            1890,
+            1.0
+        ]
+    },
+    "per:countries_of_residence": {
+        "SUBJ-PERSON|:|OBJ-COUNTRY": [
+            373,
+            0.8382022471910112
+        ],
+        "SUBJ-PERSON|:|OBJ-NATIONALITY": [
+            63,
+            0.14157303370786517
+        ],
+        "SUBJ-PERSON|:|OBJ-LOCATION": [
+            9,
+            0.020224719101123594
+        ]
+    },
+    "org:city_of_headquarters": {
+        "SUBJ-ORGANIZATION|:|OBJ-CITY": [
+            355,
+            0.9293193717277487
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-LOCATION": [
+            27,
+            0.07068062827225131
+        ]
+    },
+    "org:members": {
+        "SUBJ-ORGANIZATION|:|OBJ-ORGANIZATION": [
+            141,
+            0.8294117647058824
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-COUNTRY": [
+            29,
+            0.17058823529411765
+        ]
+    },
+    "org:country_of_headquarters": {
+        "SUBJ-ORGANIZATION|:|OBJ-COUNTRY": [
+            452,
+            0.9658119658119658
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-LOCATION": [
+            16,
+            0.03418803418803419
+        ]
+    },
+    "per:spouse": {
+        "SUBJ-PERSON|:|OBJ-PERSON": [
+            258,
+            1.0
+        ]
+    },
+    "org:stateorprovince_of_headquarters": {
+        "SUBJ-ORGANIZATION|:|OBJ-STATE_OR_PROVINCE": [
+            214,
+            0.9344978165938864
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-LOCATION": [
+            15,
+            0.06550218340611354
+        ]
+    },
+    "org:number_of_employees/members": {
+        "SUBJ-ORGANIZATION|:|OBJ-NUMBER": [
+            75,
+            1.0
+        ]
+    },
+    "org:parents": {
+        "SUBJ-ORGANIZATION|:|OBJ-ORGANIZATION": [
+            261,
+            0.9125874125874126
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-COUNTRY": [
+            15,
+            0.05244755244755245
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-LOCATION": [
+            7,
+            0.024475524475524476
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-STATE_OR_PROVINCE": [
+            3,
+            0.01048951048951049
+        ]
+    },
+    "org:subsidiaries": {
+        "SUBJ-ORGANIZATION|:|OBJ-ORGANIZATION": [
+            268,
+            0.9054054054054054
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-LOCATION": [
+            27,
+            0.09121621621621621
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-COUNTRY": [
+            1,
+            0.0033783783783783786
+        ]
+    },
+    "per:origin": {
+        "SUBJ-PERSON|:|OBJ-NATIONALITY": [
+            266,
+            0.8184615384615385
+        ],
+        "SUBJ-PERSON|:|OBJ-COUNTRY": [
+            56,
+            0.1723076923076923
+        ],
+        "SUBJ-PERSON|:|OBJ-LOCATION": [
+            3,
+            0.009230769230769232
+        ]
+    },
+    "org:political/religious_affiliation": {
+        "SUBJ-ORGANIZATION|:|OBJ-RELIGION": [
+            78,
+            0.7428571428571429
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-IDEOLOGY": [
+            27,
+            0.2571428571428571
+        ]
+    },
+    "per:other_family": {
+        "SUBJ-PERSON|:|OBJ-PERSON": [
+            179,
+            1.0
+        ]
+    },
+    "per:stateorprovince_of_birth": {
+        "SUBJ-PERSON|:|OBJ-STATE_OR_PROVINCE": [
+            38,
+            1.0
+        ]
+    },
+    "org:dissolved": {
+        "SUBJ-ORGANIZATION|:|OBJ-DATE": [
+            23,
+            1.0
+        ]
+    },
+    "per:date_of_death": {
+        "SUBJ-PERSON|:|OBJ-DATE": [
+            134,
+            1.0
+        ]
+    },
+    "org:shareholders": {
+        "SUBJ-ORGANIZATION|:|OBJ-PERSON": [
+            59,
+            0.7763157894736842
+        ],
+        "SUBJ-ORGANIZATION|:|OBJ-ORGANIZATION": [
+            17,
+            0.2236842105263158
+        ]
+    },
+    "per:alternate_names": {
+        "SUBJ-PERSON|:|OBJ-PERSON": [
+            96,
+            0.9230769230769231
+        ],
+        "SUBJ-PERSON|:|OBJ-MISC": [
+            8,
+            0.07692307692307693
+        ]
+    },
+    "per:parents": {
+        "SUBJ-PERSON|:|OBJ-PERSON": [
+            152,
+            1.0
+        ]
+    },
+    "per:schools_attended": {
+        "SUBJ-PERSON|:|OBJ-ORGANIZATION": [
+            149,
+            1.0
+        ]
+    },
+    "per:cause_of_death": {
+        "SUBJ-PERSON|:|OBJ-CAUSE_OF_DEATH": [
+            117,
+            1.0
+        ]
+    },
+    "per:city_of_death": {
+        "SUBJ-PERSON|:|OBJ-CITY": [
+            73,
+            0.9012345679012346
+        ],
+        "SUBJ-PERSON|:|OBJ-LOCATION": [
+            8,
+            0.09876543209876543
+        ]
+    },
+    "per:stateorprovince_of_death": {
+        "SUBJ-PERSON|:|OBJ-STATE_OR_PROVINCE": [
+            48,
+            0.9795918367346939
+        ],
+        "SUBJ-PERSON|:|OBJ-LOCATION": [
+            1,
+            0.02040816326530612
+        ]
+    },
+    "org:founded": {
+        "SUBJ-ORGANIZATION|:|OBJ-DATE": [
+            91,
+            1.0
+        ]
+    },
+    "per:country_of_birth": {
+        "SUBJ-PERSON|:|OBJ-COUNTRY": [
+            26,
+            0.9285714285714286
+        ],
+        "SUBJ-PERSON|:|OBJ-LOCATION": [
+            1,
+            0.03571428571428571
+        ],
+        "SUBJ-PERSON|:|OBJ-NATIONALITY": [
+            1,
+            0.03571428571428571
+        ]
+    },
+    "per:date_of_birth": {
+        "SUBJ-PERSON|:|OBJ-DATE": [
+            63,
+            1.0
+        ]
+    },
+    "per:city_of_birth": {
+        "SUBJ-PERSON|:|OBJ-CITY": [
+            62,
+            0.9538461538461539
+        ],
+        "SUBJ-PERSON|:|OBJ-LOCATION": [
+            3,
+            0.046153846153846156
+        ]
+    },
+    "per:charges": {
+        "SUBJ-PERSON|:|OBJ-CRIMINAL_CHARGE": [
+            72,
+            1.0
+        ]
+    },
+    "per:country_of_death": {
+        "SUBJ-PERSON|:|OBJ-COUNTRY": [
+            4,
+            0.6666666666666666
+        ],
+        "SUBJ-PERSON|:|OBJ-NATIONALITY": [
+            1,
+            0.16666666666666666
+        ],
+        "SUBJ-PERSON|:|OBJ-LOCATION": [
+            1,
+            0.16666666666666666
+        ]
+    }
+}
