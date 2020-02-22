@@ -1,4 +1,4 @@
-Distilling Knowledge from Well-informed Soft Labels for Neural Relation Extraction
+KD4NRE
 ==========
 
 This repo contains the example pytorch code for the paper [Distilling Knowledge from Well-informed Soft Labels for Neural Relation Extraction](files/AAAI-ZhangZ.7408.pdf). 
