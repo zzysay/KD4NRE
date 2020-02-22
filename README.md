@@ -101,4 +101,4 @@ They will use the `best_model.pt` file by default. Use `--model checkpoint_epoch
 
 ## Related Repo
 
-Codes are adapted from the repo of C-GCN:[Graph Convolution over Pruned Dependency Trees Improves Relation Extraction](https://github.com/qipeng/gcn-over-pruned-trees).
+Codes are adapted from the repo of C-GCN: [Graph Convolution over Pruned Dependency Trees Improves Relation Extraction](https://github.com/qipeng/gcn-over-pruned-trees).
