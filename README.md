@@ -13,15 +13,15 @@ See below for an overview of the model architecture:
 
 - python3 (tested on 3.7.0)
 - pytorch (tested on 1.0.1)
-- CUDA (tested on 9.0.176)
+- CUDA
 - tqdm
-- unzip, wget (for downloading only)
+- unzip, wget
 
 ## Preparation
 
 The code requires that you have access to the TACRED dataset (LDC license required). Once you have the TACRED data, please put the JSON files under the directory `tree_nn/dataset/tacred`. For completeness, we only include sample data files from the TACRED dataset in this repo.
 
-First, change the work directory and construct the bipartite graph (this step can be omitted since we have uploaded the processed file `tree_nn/dataset/pattern/type2prob.json`):
+First, construct the bipartite graph (this step can be omitted since we have uploaded the processed file `tree_nn/dataset/pattern/type2prob.json`):
 
 ```
 cd bipartite
@@ -29,7 +29,7 @@ python3 construct.py
 cd ../
 ```
 
-Then, change the work directory and download GloVe vectors:
+Then, download and unzip GloVe vectors:
 ```
 cd tree_nn
 chmod +x download.sh; ./download.sh
