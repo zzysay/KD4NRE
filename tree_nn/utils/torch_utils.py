@@ -91,7 +91,7 @@ class MyAdagrad(Optimizer):
         return loss
 
 
-### torch specific functions
+# torch specific functions
 def get_optimizer(name, parameters, lr):
     if name == 'sgd':
         return torch.optim.SGD(parameters, lr=lr)
@@ -134,7 +134,7 @@ def keep_partial_grad(grad, topk):
     return grad
 
 
-### model IO
+# model IO
 def save(model, optimizer, opt, filename):
     params = {
         'model': model.state_dict(),

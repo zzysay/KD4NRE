@@ -52,16 +52,16 @@ print('\n >> Pattern Prediction:')
 _, _, _ = scorer.score(batch.gold(), pattern_predictions, verbose=True)
 
 # save probability scores
-if len(args.out) > 0:
-    outfile = 'saved_models/' + args.model_id + '/' + args.out
-    with open(outfile, 'w') as fw:
-        for f_prob, i_prob, p_prob in zip(all_final_probs, all_inst_probs, all_pattern_probs):
-            fw.write(json.dumps([round(p, 4) for p in f_prob]))
-            fw.write('\r\n')
-            fw.write(json.dumps([round(p, 4) for p in i_prob]))
-            fw.write('\r\n')
-            fw.write(json.dumps([round(p, 4) for p in p_prob]))
-            fw.write('\r\n')
-            fw.write('\r\n')
-    print("Prediction scores saved to {}.".format(outfile))
+# if len(args.out) > 0:
+#     outfile = 'saved_models/' + args.model_id + '/' + args.out
+#     with open(outfile, 'w') as fw:
+#         for f_prob, i_prob, p_prob in zip(all_final_probs, all_inst_probs, all_pattern_probs):
+#             fw.write(json.dumps([round(p, 4) for p in f_prob]))
+#             fw.write('\r\n')
+#             fw.write(json.dumps([round(p, 4) for p in i_prob]))
+#             fw.write('\r\n')
+#             fw.write(json.dumps([round(p, 4) for p in p_prob]))
+#             fw.write('\r\n')
+#             fw.write('\r\n')
+#     print("Prediction scores saved to {}.".format(outfile))
 print("Evaluation ended.")

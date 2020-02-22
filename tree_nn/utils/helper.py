@@ -54,7 +54,6 @@ class FileLogger(object):
     """
     A file logger that opens the file periodically and write to it.
     """
-
     def __init__(self, filename, header=None):
         self.filename = filename
         if os.path.exists(filename):

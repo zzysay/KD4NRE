@@ -3,7 +3,7 @@ Distilling Knowledge from Well-informed Soft Labels for Neural Relation Extracti
 
 This repo contains the example pytorch code for the paper [Distilling Knowledge from Well-informed Soft Labels for Neural Relation Extraction](files/AAAI-ZhangZ.7408.pdf). 
 
-In this paper, we aim to explore the supervision with soft labels in relation extraction, which makes it possible to integrate prior knowledge. Specifically, a bipartite graph is first devised to discover type constraints between entities and relations based on the entire corpus. Then, we combine such type constraints with neural networks to achieve a knowledgeable model. Furthermore, this model is regarded as teacher to generate well-informed soft labels and guide the optimization of a student network via knowledge distillation. Besides, a multi-aspect attention mechanism is introduced to help student mine latent information from text. In this way, the enhanced student inherits the dark knowledge (e.g., type constraints and relevance among relations) from teacher, and directly serves the testing scenarios without any extra constraints. 
+This paper/code aims to exhibitions the supervision with soft labels in relation extraction, which makes it possible to integrate prior knowledge. Specifically, a bipartite graph is first devised to discover type constraints between entities and relations based on the entire corpus. Then, we combine such type constraints with neural networks to achieve a knowledgeable model. Furthermore, this model is regarded as teacher to generate well-informed soft labels and guide the optimization of a student network via knowledge distillation. Besides, a multi-aspect attention mechanism is introduced to help student mine latent information from text. In this way, the enhanced student inherits the dark knowledge (e.g., type constraints and relevance among relations) from teacher, and directly serves the testing scenarios without any extra constraints. 
 
 See below for an overview of the model architecture:
 
@@ -44,7 +44,7 @@ This will write vocabulary and word vectors as a numpy matrix into the dir `tree
 
 ## Training
 
-First, train a graph convolutional neural network model as base network:
+First, train a graph convolutional neural network model as base network (we use C-GCN here):
 ```
 python3 train_base.py --id base 
 ```
@@ -66,7 +66,7 @@ python3 train_student.py --teacher_id teacher --base_mode 0 --id student
 
 Model checkpoints and logs will be saved to `tree_nn/saved_models/student`.
 
-For details on the use of other parameters, please refer to `tree_nn/config.py`. For simplicity, these models use the same set of parameters, which can also be adjusted to the optimum respectively.
+For simplicity, these models use the same set of parameters in this repo, which could also be adjusted to be optimal respectively. For details on the use of other parameters, please refer to `tree_nn/config.py`. 
 
 ## Evaluation
 

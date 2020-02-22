@@ -42,11 +42,11 @@ predictions = [id2label[p] for p in predictions]
 _, _, _ = scorer.score(batch.gold(), predictions, verbose=True)
 
 # save probability scores
-if len(args.out) > 0:
-    outfile = 'saved_models/' + args.model_id + '/' + args.out
-    with open(outfile, 'w') as fw:
-        for prob in all_probs:
-            fw.write(json.dumps([round(p, 4) for p in prob]))
-            fw.write('\r\n')
-    print("Prediction scores saved to {}.".format(outfile))
+# if len(args.out) > 0:
+#     outfile = 'saved_models/' + args.model_id + '/' + args.out
+#     with open(outfile, 'w') as fw:
+#         for prob in all_probs:
+#             fw.write(json.dumps([round(p, 4) for p in prob]))
+#             fw.write('\r\n')
+#     print("Prediction scores saved to {}.".format(outfile))
 print("Evaluation ended.")

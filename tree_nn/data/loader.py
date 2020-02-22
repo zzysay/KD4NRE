@@ -150,8 +150,7 @@ def sort_all(batch, lens):
 
 def word_dropout(tokens, dropout):
     """ Randomly dropout tokens (IDs) and replace them with <UNK> tokens. """
-    return [constant.UNK_ID if x != constant.UNK_ID and np.random.random() < dropout \
-                else x for x in tokens]
+    return [constant.UNK_ID if x != constant.UNK_ID and np.random.random() < dropout else x for x in tokens]
 
 
 def get_float_tensor(tokens_list, batch_size):
